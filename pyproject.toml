@@ -1,0 +1,20 @@
+[project]
+name = "neurips"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Tomas Aguirre",email = "tomas.aguirre.m@ug.uchile.cl"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "polars (>=1.32.3,<2.0.0)",
+    "kaggle (>=1.7.4.5,<2.0.0.0)",
+    "numpy (>=2.3.2,<3.0.0)",
+    "scikit-learn (>=1.7.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
